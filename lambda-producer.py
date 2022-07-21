@@ -1,5 +1,6 @@
 import json
 import boto3
+import os
 from opentelemetry import trace
 from opentelemetry import propagate
 from opentelemetry.trace.propagation.tracecontext import TraceContextTextMapPropagator
